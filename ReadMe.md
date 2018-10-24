@@ -2,16 +2,19 @@ Yet another load test tool by invoking curl command.
 
 Inspired by ab (ApacheBench), loadtest in js and hey in golang.
 
-Tested on Windows/Linux/macOS.
-
 ### Requirment
 
 * Python2/3
 * curl
 
+### Features
+
+* Works on Windows/Linux/macOS
+* Progress bar
+
 ### Usage
 
-```python
+```sh
 $ ./ab.py
 usage: ab.py [-h] [-t TIMEOUT] [-u URL] [-n TOTAL_ATTACKS]
              [-c MAX_ATTACK_AT_ONCE] [-H HEADER] [-v] [-j JSONFILE] [-p BODY]
