@@ -1,4 +1,4 @@
-Yet another load test tool by invoking curl command.
+Yet another load testing tool by invoking curl command.
 
 Inspired by ab (ApacheBench), loadtest in js and hey in golang.
 
@@ -15,7 +15,7 @@ Inspired by ab (ApacheBench), loadtest in js and hey in golang.
 ### Usage
 
 ```sh
-$ ./ab.py
+$ ./ab.py -h
 usage: ab.py [-h] [-t TIMEOUT] [-u URL] [-n TOTAL_ATTACKS]
              [-c MAX_ATTACK_AT_ONCE] [-H HEADER] [-v] [-j JSONFILE] [-p BODY]
 
